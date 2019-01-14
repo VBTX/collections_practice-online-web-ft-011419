@@ -42,7 +42,11 @@ def kesha_maker(array)
   return newArr
 end
 
-def find_a
+def find_a(array)
+  array.select do |string|
+    if string.start_with?("a")
+    end
+  end
 end
 
  def sum_array
