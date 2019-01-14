@@ -32,7 +32,7 @@ describe 'collections practice' do
 
   describe '#swap_elements_from_to' do
     it 'specify the index of the element you would like to move to a new index' do
-      expect(swap_elements_from_to(["john", "kim", "barney"])).to eq(["barney", "kim", "john"])
+      expect(swap_elements_from_to(["john", "kim", "barney"], 0, 2)).to eq(["barney", "kim", "john"])
     end
   end
 
