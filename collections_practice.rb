@@ -10,7 +10,7 @@ def sort_array_desc
 end
 
 def swap_elements(array)
-  
+
 end
 
 def reverse_array
