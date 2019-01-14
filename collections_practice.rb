@@ -41,7 +41,7 @@ end
 
 def find_a(array)
   array.find_all do |string|
-    if string.start_with?("a")
+    string.start_with?("a")
     end
   end
 end
