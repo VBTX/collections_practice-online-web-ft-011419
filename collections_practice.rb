@@ -1,5 +1,5 @@
 def sort_array_asc
-
+  array.sort
 end
 
 
@@ -10,7 +10,7 @@ def sort_array_desc
 end
 
 def swap_elements(array)
-  array.sort
+  
 end
 
 def reverse_array
